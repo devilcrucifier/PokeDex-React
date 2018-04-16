@@ -43,7 +43,13 @@ class Body extends Component {
           backgroundColor="red"
           onClick={() => this.handleClick(this.state.searchValue)}
         >Search
+        ->https://data.gov.au/dataset/environment-bird-atlas // Link for dataset of birds
+        ->http://chirag.freeshell.org/birds/identify/index.html
+        ->http://www.whatbird.com/browse/attributes.aspx
+        ->http://www.birdsinbackyards.net/finder
+        ->http://www.birds.iitk.ac.in/sites/default/files/IndiaChecklistl.pdf
         </Button>*/}
+
         <br /><br />
         <div className="country-list">{data.map(countries => <div><li>{countries.name}</li></div>)}</div>
       </div>
