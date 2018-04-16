@@ -46,7 +46,7 @@ class Body extends Component {
         >Search
         </Button>
         <br /><br />
-        <div className="country-list">{this.props.countries.map(countries => <div><li>{countries.name}</li></div>)}</div>
+        <div className="country-list">{data.map(countries => <div><li>{countries.name}</li></div>)}</div>
       </div>
     );
   }
