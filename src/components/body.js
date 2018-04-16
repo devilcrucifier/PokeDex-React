@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {Row, Col} from 'reactstrap';
+import Button from 'material-ui/Button';
+import TextField from 'material-ui/TextField';
 
 class Body extends Component {
   constructor(props){
@@ -7,25 +9,42 @@ class Body extends Component {
     this.state = {
       searchValue: '',
     }
-    this.handleSearch = this.handleSearch.bind(this);
+    this.handleText = this.handleText.bind(this);
   }
 
-  handleSearch(event){
-    console.log(this.state.searchValue);
+  handleText(event){
     this.setState({
       searchValue: event.target.value,
     });
   }
-
+  handleClick(searchValue){
+    console.log(searchValue);
+  }
   render() {
+    let data = this.props.countries;
+    let searchString = this.state.searchValue.trim().toLowerCase();
+    if (searchString.length > 0) {
+      data = data.filter((country) => {
+        console.log(country.name.toLowerCase().match(searchString));
+        return country.name.toLowerCase().match(searchString);
+      });
+    }
     return (
       <div>
         <br /><br />
-        <input
+        <TextField
           type="text"
           value={this.state.searchValue}
-          onChange={this.handleSearch}
+          onChange={this.handleText}
+          placeholder="Type here..."
         />
+        <Button
+          variant="raised"
+          color="primary"
+          backgroundColor="red"
+          onClick={() => this.handleClick(this.state.searchValue)}
+        >Search
+        </Button>
         <br /><br />
         <div className="country-list">{this.props.countries.map(countries => <div><li>{countries.name}</li></div>)}</div>
       </div>

@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Main from './components/main.js';
 import data from './data/countries.json'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Main from './components/main.js';
 
 class App extends Component {
   render() {
     return (
-      <Main dataProp={data} />
+      <MuiThemeProvider>
+        <Main dataProp={data} />
+      </MuiThemeProvider>
     );
   }
 }
