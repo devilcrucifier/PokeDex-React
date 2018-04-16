@@ -25,7 +25,6 @@ class Body extends Component {
     let searchString = this.state.searchValue.trim().toLowerCase();
     if (searchString.length > 0) {
       data = data.filter((country) => {
-        console.log(country.name.toLowerCase().match(searchString));
         return country.name.toLowerCase().match(searchString);
       });
     }
@@ -38,13 +37,13 @@ class Body extends Component {
           onChange={this.handleText}
           placeholder="Type here..."
         />
-        <Button
+        {/*<Button
           variant="raised"
           color="primary"
           backgroundColor="red"
           onClick={() => this.handleClick(this.state.searchValue)}
         >Search
-        </Button>
+        </Button>*/}
         <br /><br />
         <div className="country-list">{data.map(countries => <div><li>{countries.name}</li></div>)}</div>
       </div>
