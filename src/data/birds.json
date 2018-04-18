@@ -1,0 +1,647 @@
+[
+ {
+   "commonName": "Hill partridge",
+   "scientificName": "Arborophila torqueola",
+   "notes": ""
+ },
+ {
+   "commonName": "Chestnut-breasted partridge",
+   "scientificName": "Arborophila mandellii",
+   "notes": ""
+ },
+ {
+   "commonName": "Rufous-throated partridge",
+   "scientificName": "Arborophila rufogularis",
+   "notes": ""
+ },
+ {
+   "commonName": "White-cheeked partridge",
+   "scientificName": "Arborophila atrogularis",
+   "notes": ""
+ },
+ {
+   "commonName": "Indian peafowl",
+   "scientificName": "Pavo cristatus",
+   "notes": ""
+ },
+ {
+   "commonName": "Green peafowl",
+   "scientificName": "Pavo muticus",
+   "notes": ""
+ },
+ {
+   "commonName": "Red spurfowl",
+   "scientificName": "Galloperdix spadicea",
+   "notes": ""
+ },
+ {
+   "commonName": "Painted spurfowl",
+   "scientificName": "Galloperdix lunulata",
+   "notes": ""
+ },
+ {
+   "commonName": "Grey peacock-pheasant",
+   "scientificName": "Polyplectron bicalcaratum",
+   "notes": ""
+ },
+ {
+   "commonName": "Blue-breasted quail",
+   "scientificName": "Coturnix chinensis",
+   "notes": ""
+ },
+ {
+   "commonName": "Japanese quail",
+   "scientificName": "Coturnix japonica",
+   "notes": ""
+ },
+ {
+   "commonName": "Common quail",
+   "scientificName": "Coturnix coturnix",
+   "notes": ""
+ },
+ {
+   "commonName": "Rain quail",
+   "scientificName": "Coturnix coromandelica",
+   "notes": ""
+ },
+ {
+   "commonName": "Chukar partridge",
+   "scientificName": "Alectoris chukar",
+   "notes": ""
+ },
+ {
+   "commonName": "Tibetan snowcock",
+   "scientificName": "Tetraogallus tibetanus",
+   "notes": ""
+ },
+ {
+   "commonName": "Himalayan snowcock",
+   "scientificName": "Tetraogallus himalayensis",
+   "notes": ""
+ },
+ {
+   "commonName": "Jungle bush quail",
+   "scientificName": "Perdicula asiatica",
+   "notes": ""
+ },
+ {
+   "commonName": "Rock bush quail",
+   "scientificName": "Perdicula argoondah",
+   "notes": ""
+ },
+ {
+   "commonName": "Painted bush quail",
+   "scientificName": "Perdicula erythrorhyncha",
+   "notes": ""
+ },
+ {
+   "commonName": "Manipur bush quail",
+   "scientificName": "Perdicula manipurensis",
+   "notes": ""
+ },
+ {
+   "commonName": "Himalayan quail",
+   "scientificName": "Ophrysia superciliosa",
+   "notes": ""
+ },
+ {
+   "commonName": "Black francolin",
+   "scientificName": "Francolinus francolinus",
+   "notes": ""
+ },
+ {
+   "commonName": "Painted francolin",
+   "scientificName": "Francolinus pictus",
+   "notes": ""
+ },
+ {
+   "commonName": "Chinese francolin",
+   "scientificName": "Francolinus pintadeanus",
+   "notes": ""
+ },
+ {
+   "commonName": "Grey francolin",
+   "scientificName": "Francolinus pondicerianus",
+   "notes": ""
+ },
+ {
+   "commonName": "Swamp francolin",
+   "scientificName": "Francolinus gularis",
+   "notes": ""
+ },
+ {
+   "commonName": "Mountain bamboo partridge",
+   "scientificName": "Bambusicola fytchii",
+   "notes": ""
+ },
+ {
+   "commonName": "Red junglefowl",
+   "scientificName": "Gallus gallus",
+   "notes": ""
+ },
+ {
+   "commonName": "Grey junglefowl",
+   "scientificName": "Gallus sonneratii",
+   "notes": ""
+ },
+ {
+   "commonName": "Blood pheasant",
+   "scientificName": "Ithaginis cruentus",
+   "notes": ""
+ },
+ {
+   "commonName": "Himalayan monal",
+   "scientificName": "Lophophorus impejanus",
+   "notes": ""
+ },
+ {
+   "commonName": "Sclater's monal",
+   "scientificName": "Lophophorus sclateri",
+   "notes": ""
+ },
+ {
+   "commonName": "Snow partridge",
+   "scientificName": "Lerwa lerwa",
+   "notes": ""
+ },
+ {
+   "commonName": "Western tragopan",
+   "scientificName": "Tragopan melanocephalus",
+   "notes": ""
+ },
+ {
+   "commonName": "Satyr tragopan",
+   "scientificName": "Tragopan satyra",
+   "notes": ""
+ },
+ {
+   "commonName": "Blyth's tragopan",
+   "scientificName": "Tragopan blythii",
+   "notes": ""
+ },
+ {
+   "commonName": "Temminck's tragopan",
+   "scientificName": "Tragopan temminckii",
+   "notes": ""
+ },
+ {
+   "commonName": "Mrs. Hume's pheasant",
+   "scientificName": "Syrmaticus humiae",
+   "notes": ""
+ },
+ {
+   "commonName": "Cheer pheasant",
+   "scientificName": "Catreus wallichii",
+   "notes": ""
+ },
+ {
+   "commonName": "Kalij pheasant",
+   "scientificName": "Lophura leucomelanos",
+   "notes": ""
+ },
+ {
+   "commonName": "Tibetan partridge",
+   "scientificName": "Perdix hodgsoniae",
+   "notes": ""
+ },
+ {
+   "commonName": "Koklass pheasant",
+   "scientificName": "Pucrasia macrolopha",
+   "notes": ""
+ },
+ {
+   "commonName": "Nicobar scrubfowl",
+   "scientificName": "Megapodius nicobariensis",
+   "notes": ""
+ },
+ {
+   "commonName": "Fulvous whistling duck",
+   "scientificName": "Dendrocygna bicolor",
+   "notes": ""
+ },
+ {
+   "commonName": "Lesser whistling duck",
+   "scientificName": "Dendrocygna javanica",
+   "notes": ""
+ },
+ {
+   "commonName": "Bar-headed goose",
+   "scientificName": "Anser indicus",
+   "notes": ""
+ },
+ {
+   "commonName": "Greylag goose",
+   "scientificName": "Anser anser",
+   "notes": ""
+ },
+ {
+   "commonName": "Greater white-fronted goose",
+   "scientificName": "Anser albifrons",
+   "notes": ""
+ },
+ {
+   "commonName": "Lesser white-fronted goose",
+   "scientificName": "Anser erythropus",
+   "notes": "Vagrant;[4][5]�vulnerable"
+ },
+ {
+   "commonName": "Taiga bean-goose",
+   "scientificName": "Anser fabalis",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Tundra bean-goose",
+   "scientificName": "Anser serrirostris",
+   "notes": "Vagrant; by some authorities considered a variety of�Anser fabalis"
+ },
+ {
+   "commonName": "Red-breasted goose",
+   "scientificName": "Branta ruficollis",
+   "notes": "Vagrant;[6]�vulnerable"
+ },
+ {
+   "commonName": "Mute swan",
+   "scientificName": "Cygnus olor",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Tundra swan",
+   "scientificName": "Cygnus columbianus",
+   "notes": "Vagrant; race�bewickii�sometimes treated as a species[7]"
+ },
+ {
+   "commonName": "Whooper swan",
+   "scientificName": "Cygnus cygnus",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Knob-billed duck",
+   "scientificName": "Sarkidiornis melanotos",
+   "notes": ""
+ },
+ {
+   "commonName": "Ruddy shelduck",
+   "scientificName": "Tadorna ferruginea",
+   "notes": ""
+ },
+ {
+   "commonName": "Common shelduck",
+   "scientificName": "Tadorna tadorna",
+   "notes": ""
+ },
+ {
+   "commonName": "Cotton pygmy goose",
+   "scientificName": "Nettapus coromandelianus",
+   "notes": ""
+ },
+ {
+   "commonName": "Mandarin duck",
+   "scientificName": "Aix galericulata",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Baikal teal",
+   "scientificName": "Sibirionetta formosa",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Garganey",
+   "scientificName": "Spatula querquedula",
+   "notes": ""
+ },
+ {
+   "commonName": "Northern shoveler",
+   "scientificName": "Spatula clypeata",
+   "notes": ""
+ },
+ {
+   "commonName": "Gadwall",
+   "scientificName": "Mareca strepera",
+   "notes": ""
+ },
+ {
+   "commonName": "Falcated duck",
+   "scientificName": "Mareca falcata",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "Eurasian wigeon",
+   "scientificName": "Mareca penelope",
+   "notes": ""
+ },
+ {
+   "commonName": "Indian spot-billed duck",
+   "scientificName": "Anas poecilorhyncha",
+   "notes": ""
+ },
+ {
+   "commonName": "Eastern spot-billed duck",
+   "scientificName": "Anas zonorhyncha",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Mallard",
+   "scientificName": "Anas platyrhynchos",
+   "notes": ""
+ },
+ {
+   "commonName": "Northern pintail",
+   "scientificName": "Anas acuta",
+   "notes": ""
+ },
+ {
+   "commonName": "Eurasian teal",
+   "scientificName": "Anas crecca",
+   "notes": ""
+ },
+ {
+   "commonName": "Andaman teal",
+   "scientificName": "Anas albogularis",
+   "notes": "Endemic; vulnerable"
+ },
+ {
+   "commonName": "Marbled duck",
+   "scientificName": "Marmaronetta angustirostris",
+   "notes": "Vulnerable"
+ },
+ {
+   "commonName": "Pink-headed duck",
+   "scientificName": "Netta caryophyllacea",
+   "notes": "Endemic; critically endangered (possibly extinct)"
+ },
+ {
+   "commonName": "White-winged duck",
+   "scientificName": "Asarcornis scutulata",
+   "notes": "Endangered"
+ },
+ {
+   "commonName": "Red-crested pochard",
+   "scientificName": "Netta rufina",
+   "notes": ""
+ },
+ {
+   "commonName": "Common pochard",
+   "scientificName": "Aythya ferina",
+   "notes": "Vulnerable"
+ },
+ {
+   "commonName": "Ferruginous duck",
+   "scientificName": "Aythya nyroca",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "Baer's pochard",
+   "scientificName": "Aythya baeri",
+   "notes": "Critically endangered"
+ },
+ {
+   "commonName": "Tufted duck",
+   "scientificName": "Aythya fuligula",
+   "notes": ""
+ },
+ {
+   "commonName": "Greater scaup",
+   "scientificName": "Aythya marila",
+   "notes": ""
+ },
+ {
+   "commonName": "Long-tailed duck",
+   "scientificName": "Clangula hyemalis",
+   "notes": "Vagrant; vulnerable"
+ },
+ {
+   "commonName": "Common goldeneye",
+   "scientificName": "Bucephala clangula",
+   "notes": ""
+ },
+ {
+   "commonName": "Smew",
+   "scientificName": "Mergellus albellus",
+   "notes": ""
+ },
+ {
+   "commonName": "Common merganser",
+   "scientificName": "Mergus merganser",
+   "notes": ""
+ },
+ {
+   "commonName": "Red-breasted merganser",
+   "scientificName": "Mergus serrator",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "White-headed duck",
+   "scientificName": "Oxyura leucocephala",
+   "notes": "Endangered"
+ },
+ {
+   "commonName": "Red-throated loon",
+   "scientificName": "Gavia stellata",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Black-throated loon",
+   "scientificName": "Gavia arctica",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "",
+   "scientificName": "",
+   "notes": ""
+ },
+ {
+   "commonName": "Cape petrel",
+   "scientificName": "Daption capense",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Barau's petrel",
+   "scientificName": "Pterodroma baraui",
+   "notes": "Endangered"
+ },
+ {
+   "commonName": "Jouanin's petrel",
+   "scientificName": "Bulweria fallax",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "Streaked shearwater",
+   "scientificName": "Calonectris leucomelas",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "Scopoli's shearwater",
+   "scientificName": "Calonectris diomedea",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Flesh-footed shearwater",
+   "scientificName": "Ardenna carneipes",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "Wedge-tailed shearwater",
+   "scientificName": "Ardenna pacifica",
+   "notes": ""
+ },
+ {
+   "commonName": "Short-tailed shearwater",
+   "scientificName": "Ardenna tenuirostris",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Tropical shearwater",
+   "scientificName": "Puffinus bailloni",
+   "notes": ""
+ },
+ {
+   "commonName": "Persian shearwater",
+   "scientificName": "Puffinus persicus",
+   "notes": ""
+ },
+ {
+   "commonName": "Wilson's storm petrel",
+   "scientificName": "Oceanites oceanicus",
+   "notes": ""
+ },
+ {
+   "commonName": "White-faced storm petrel",
+   "scientificName": "Pelagodroma marina",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Black-bellied storm petrel",
+   "scientificName": "Fregetta tropica",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Swinhoe's storm petrel",
+   "scientificName": "Oceanodroma monorhis",
+   "notes": "Near-threatene"
+ },
+ {
+   "commonName": "",
+   "scientificName": "",
+   "notes": ""
+ },
+ {
+   "commonName": "Little grebe",
+   "scientificName": "Tachybaptus ruficollis",
+   "notes": ""
+ },
+ {
+   "commonName": "Horned grebe",
+   "scientificName": "Podiceps auritus",
+   "notes": "Vagrant; vulnerable"
+ },
+ {
+   "commonName": "Red-necked grebe",
+   "scientificName": "Podiceps grisegena",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Great crested grebe",
+   "scientificName": "Podiceps cristatus",
+   "notes": ""
+ },
+ {
+   "commonName": "Black-necked grebe",
+   "scientificName": "Podiceps nigricollis",
+   "notes": ""
+ },
+ {
+   "commonName": "Greater flamingo",
+   "scientificName": "Phoenicopterus roseus",
+   "notes": ""
+ },
+ {
+   "commonName": "Lesser flamingo",
+   "scientificName": "Phoenicopterus minor",
+   "notes": "Near-threatene"
+ },
+ {
+   "commonName": "",
+   "scientificName": "",
+   "notes": ""
+ },
+ {
+   "commonName": "White-tailed tropicbird",
+   "scientificName": "Phaethon lepturus",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Red-billed tropicbird",
+   "scientificName": "Phaethon aethereus",
+   "notes": "Vagrant"
+ },
+ {
+   "commonName": "Red-tailed tropicbird",
+   "scientificName": "Phaethon rubricauda",
+   "notes": ""
+ },
+ {
+   "commonName": "Asian openbill",
+   "scientificName": "Anastomus oscitans",
+   "notes": ""
+ },
+ {
+   "commonName": "Black stork",
+   "scientificName": "Ciconia nigra",
+   "notes": ""
+ },
+ {
+   "commonName": "Woolly-necked stork",
+   "scientificName": "Ciconia episcopus",
+   "notes": ""
+ },
+ {
+   "commonName": "White stork",
+   "scientificName": "Ciconia ciconia",
+   "notes": ""
+ },
+ {
+   "commonName": "Black-necked stork",
+   "scientificName": "Ephippiorhynchus asiaticus",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "Lesser adjutant",
+   "scientificName": "Leptoptilos javanicus",
+   "notes": "Vulnerable"
+ },
+ {
+   "commonName": "Greater adjutant",
+   "scientificName": "Leptoptilos dubius",
+   "notes": "Endangered"
+ },
+ {
+   "commonName": "Painted stork",
+   "scientificName": "Mycteria leucocephala",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "",
+   "scientificName": "",
+   "notes": ""
+ },
+ {
+   "commonName": "Glossy ibis",
+   "scientificName": "Plegadis falcinellus",
+   "notes": ""
+ },
+ {
+   "commonName": "Black-headed ibis",
+   "scientificName": "Threskiornis melanocephalus",
+   "notes": "Near-threatened"
+ },
+ {
+   "commonName": "Red-naped ibis",
+   "scientificName": "Pseudibis papillosa",
+   "notes": ""
+ },
+ {
+   "commonName": "Eurasian spoonbill",
+   "scientificName": "Platalea leucorodia",
+   "notes": ""
+ }
+]

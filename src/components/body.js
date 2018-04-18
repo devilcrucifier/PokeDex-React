@@ -2,6 +2,17 @@ import React, { Component } from 'react';
 import {Row, Col} from 'reactstrap';
 import Button from 'material-ui/Button';
 import TextField from 'material-ui/TextField';
+import Paper from 'material-ui/Paper';
+
+const style = {
+  height: 4500,
+  width: 700,
+  margin: 20,
+  textAlign: 'left',
+  paddingLeft: 90,
+  paddingRight: 90,
+  display: 'inline-block',
+};
 
 class Body extends Component {
   constructor(props){
@@ -51,11 +62,16 @@ class Body extends Component {
         ->http://www.birds.iitk.ac.in/sites/default/files/IndiaChecklistl.pdf
 
         http://www.convertcsv.com/csv-to-json.htm
-        
+
         </Button>*/}
 
         <br /><br />
-        <div className="country-list">{data.map(countries => <div><li>{countries.name}</li></div>)}</div>
+        <Paper style={style} zDepth={5} rounded={false}>
+          <div>
+            <br /><br /><br />
+            {data.map(countries => <div><li>{countries.name}</li></div>)}
+          </div>
+        </Paper>
       </div>
     );
   }
