@@ -3,6 +3,10 @@ import {Row, Col} from 'reactstrap';
 import Button from 'material-ui/Button';
 import TextField from 'material-ui/TextField';
 import Paper from 'material-ui/Paper';
+import Menu from 'material-ui/Menu';
+import Drawer from 'material-ui/Drawer';
+import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
+
 
 const style = {
   height: 4500,
@@ -19,8 +23,22 @@ class Body extends Component {
     super(props);
     this.state = {
       searchValue: '',
+      open: false,
     }
     this.handleText = this.handleText.bind(this);
+    this.handleToggle = this.handleToggle.bind(this);
+    this.handleClose = this.handleClose.bind(this);
+  }
+
+  handleToggle() {
+    this.setState({
+      open: !this.state.open,
+    });
+  }
+  handleClose() {
+    this.setState({
+      open: false,
+    });
   }
 
   handleText(event){
@@ -72,6 +90,22 @@ class Body extends Component {
             {data.map(countries => <div><li>{countries.name}</li></div>)}
           </div>
         </Paper>
+        <br />
+        <Button
+          onClick={this.handleToggle}
+        >Drawer
+        </Button>
+        <Drawer
+          open={this.state.open}
+          docked={false}
+          className="app-drawer"
+          width={200}
+          onRequestChange={(open) => this.setState({open})}
+          ModalProps={{ onBackdropClick: this.handleToggle }}
+        >
+          <Button onClick={this.handleClose}>Menu Item</Button>
+          <Button onClick={this.handleClose}>Menu Item 2</Button>
+        </Drawer>
       </div>
     );
   }
