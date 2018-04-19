@@ -7,6 +7,7 @@ class Main extends Component {
     return (
       <div className="App">
         <Header />
+        <br /><br />
         <Body countries={this.props.dataProp}/>
       </div>
     );
