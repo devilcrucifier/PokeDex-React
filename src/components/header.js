@@ -4,6 +4,7 @@ import Button from 'material-ui/Button';
 import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import SvgIcon from 'material-ui/SvgIcon';
+import HamburgerMenu from 'react-hamburger-menu';
 
 const HomeIcon = (props) => (
   <SvgIcon {...props}>
@@ -52,8 +53,19 @@ class Header extends Component {
         </header>*/}
         <AppBar title="My App">
           <Tabs>
-            <Tab icon={<IconButton onClick={this.handleToggle}><Home /></IconButton>}></Tab>
-
+            {/* <Tab icon={<IconButton onClick={this.handleToggle}><Home /></IconButton>}></Tab> */}
+            <Tab icon={<HamburgerMenu
+              isOpen={this.state.open}
+              menuClicked={this.handleToggle}
+              width={18}
+              height={15}
+              strokeWidth={1}
+              rotate={0}
+              color='white'
+              borderRadius={0}
+              animationDuration={0.5}
+            />}>
+            </Tab>
             <Tab label="Discover" />
             <Tab label="Live" />
             <Tab label="Jobs" />
