@@ -8,6 +8,11 @@ import Drawer from 'material-ui/Drawer';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 import axios from "axios";
 
+// Important Links
+// https://apilist.fun/i/youtube-api
+// http://numbersapi.com/#0/math
+// https://ctrlq.org/code/19909-google-translate-api
+
 const style = {
   height: 4500,
   width: 700,
@@ -100,7 +105,7 @@ componentDidMount(){
         <Button
           onClick={this.handleToggle}
         >Drawer
-        </Button>
+        </Button> 
         <Drawer
           open={this.state.open}
           docked={false}
