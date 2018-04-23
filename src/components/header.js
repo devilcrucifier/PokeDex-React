@@ -5,6 +5,7 @@ import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import SvgIcon from 'material-ui/SvgIcon';
 import HamburgerMenu from 'react-hamburger-menu';
+import Trivia from './trivia.js';
 
 const HomeIcon = (props) => (
   <SvgIcon {...props}>
@@ -66,7 +67,10 @@ class Header extends Component {
               animationDuration={0.5}
             />}>
             </Tab>
-            <Tab label="Discover" />
+            <Tab
+              label="Trivia"
+              onActive={() => <Trivia />}
+            />
             <Tab label="Live" />
             <Tab label="Jobs" />
             <Tab label="Sign Up with Email" />
