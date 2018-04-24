@@ -6,7 +6,8 @@ import Paper from 'material-ui/Paper';
 import Menu from 'material-ui/Menu';
 import Drawer from 'material-ui/Drawer';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
-
+import axios from "axios";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const style = {
   height: 4500,
@@ -24,6 +25,7 @@ class Body extends Component {
     this.state = {
       searchValue: '',
       open: false,
+      trivia: [],
     }
     this.handleText = this.handleText.bind(this);
     this.handleToggle = this.handleToggle.bind(this);
