@@ -39,7 +39,6 @@ class Body extends Component {
   };
   
   handleScroll(event) {
-    console.log(this.state.scroll);
     this.setState({
       scroll: true,
     });
@@ -55,11 +54,18 @@ class Body extends Component {
   }
   render() {
     let data = this.props.countries;
+    console.log(data);
     let searchString = this.state.searchValue.trim().toLowerCase();
     if (searchString.length > 0) {
-      data = data.filter((country) => {
-        return country.name.toLowerCase().match(searchString);
-      });
+      // data = Object.keys(data).filter((key) => {
+      //   console.log(data[key].name);
+      //   return data[key].name.toLowerCase().match(searchString);
+      // });
+      // console.log(data);
+      // data = data.filter((country) => {
+      //   return country.name.toLowerCase().match(searchString);
+      // });
+      console.log(data);
     }
     return (
       <div>
@@ -74,7 +80,9 @@ class Body extends Component {
         <Paper style={style} zDepth={5} rounded={false}>
           <div>
             <br /><br /><br />
-            {data.map(countries => <div><li>{countries.name}</li></div>)}
+            {Object.keys(data).map((key, value) =>
+              <li>{data[key].name}</li>
+            )}
           </div>
         </Paper>
         <br />

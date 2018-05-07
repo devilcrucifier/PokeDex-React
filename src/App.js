@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import data from './data/countries.json'
+//import data from './data/countries.json'
+import data from './data/pokemon.json'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import Main from './components/main.js';
 
