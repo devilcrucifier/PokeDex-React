@@ -4,7 +4,6 @@ import Button from 'material-ui/Button';
 import TextField from 'material-ui/TextField';
 import Paper from 'material-ui/Paper';
 import Menu from 'material-ui/Menu';
-import Drawer from 'material-ui/Drawer';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 import axios from "axios";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
@@ -24,24 +23,27 @@ class Body extends Component {
     super(props);
     this.state = {
       searchValue: '',
-      open: false,
       trivia: [],
+      scroll: false,
     }
     this.handleText = this.handleText.bind(this);
-    this.handleToggle = this.handleToggle.bind(this);
-    this.handleClose = this.handleClose.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
-
-  handleToggle() {
+  
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  };
+  
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  };
+  
+  handleScroll(event) {
+    console.log(this.state.scroll);
     this.setState({
-      open: !this.state.open,
+      scroll: true,
     });
-  }
-  handleClose() {
-    this.setState({
-      open: false,
-    });
-  }
+  };
 
   handleText(event){
     this.setState({
@@ -68,23 +70,6 @@ class Body extends Component {
           onChange={this.handleText}
           placeholder="Type here..."
         />
-        {/*<Button
-          variant="raised"
-          color="primary"
-          backgroundColor="red"
-          onClick={() => this.handleClick(this.state.searchValue)}
-        >Search
-        ->https://data.gov.au/dataset/environment-bird-atlas // Link for dataset of birds
-        ->http://chirag.freeshell.org/birds/identify/index.html
-        ->http://www.whatbird.com/browse/attributes.aspx
-        ->http://www.whatbird.com/browse/attributes.aspx
-        ->http://www.birdsinbackyards.net/finder
-        ->http://www.birds.iitk.ac.in/sites/default/files/IndiaChecklistl.pdf
-
-        http://www.convertcsv.com/csv-to-json.htm
-
-        </Button>*/}
-
         <br /><br />
         <Paper style={style} zDepth={5} rounded={false}>
           <div>
@@ -93,21 +78,6 @@ class Body extends Component {
           </div>
         </Paper>
         <br />
-        <Button
-          onClick={this.handleToggle}
-        >Drawer
-        </Button>
-        <Drawer
-          open={this.state.open}
-          docked={false}
-          className="app-drawer"
-          width={200}
-          onRequestChange={(open) => this.setState({open})}
-          ModalProps={{ onBackdropClick: this.handleToggle }}
-        >
-          <Button onClick={this.handleClose}>Menu Item</Button>
-          <Button onClick={this.handleClose}>Menu Item 2</Button>
-        </Drawer>
       </div>
     );
   }

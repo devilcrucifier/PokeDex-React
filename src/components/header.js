@@ -5,7 +5,6 @@ import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
 import SvgIcon from 'material-ui/SvgIcon';
 import HamburgerMenu from 'react-hamburger-menu';
-import Trivia from './trivia.js';
 
 const HomeIcon = (props) => (
   <SvgIcon {...props}>
@@ -49,9 +48,6 @@ class Header extends Component {
   render() {
     return (
       <div>
-        {/* <header className="App-header">
-          <h1 className="App-title">Real-Time Search</h1>
-        </header>*/}
         <AppBar title="My App">
           <Tabs>
             {/* <Tab icon={<IconButton onClick={this.handleToggle}><Home /></IconButton>}></Tab> */}
@@ -69,7 +65,7 @@ class Header extends Component {
             </Tab>
             <Tab
               label="Trivia"
-              onActive={() => <Trivia />}
+              // onActive={() => <Trivia />}
             />
             <Tab label="Live" />
             <Tab label="Jobs" />
