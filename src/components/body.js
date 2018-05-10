@@ -59,9 +59,6 @@ class Body extends Component {
     let newList = [];
     let searchString = this.state.searchValue.trim().toLowerCase();
     if (searchString.length > 0) {
-      data = Object.keys(data).filter((key) => {
-        return data[key].name.toLowerCase().match(searchString);
-      });
       // console.log(data);
       // data = data.filter((country) => {
       //   return country.name.toLowerCase().match(searchString);
