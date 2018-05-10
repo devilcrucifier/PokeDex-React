@@ -55,7 +55,6 @@ class Body extends Component {
   }
   render() {
     let data = this.props.countries;
-    let pokemon = this.props.countries;
     let newList = [];
     let searchString = this.state.searchValue.trim().toLowerCase();
     if (searchString.length > 0) {
@@ -63,9 +62,9 @@ class Body extends Component {
       // data = data.filter((country) => {
       //   return country.name.toLowerCase().match(searchString);
       // });
-      pokemon = Object.keys(pokemon).forEach((key) => {
-        if(!_.isEmpty(pokemon[key].name.toLowerCase().match(searchString))) {
-          newList.push(_.upperFirst(pokemon[key].name.toLowerCase().match(searchString).input));
+      data = Object.keys(data).forEach((key) => {
+        if(!_.isEmpty(data[key].name.toLowerCase().match(searchString))) {
+          newList.push(_.upperFirst(data[key].name.toLowerCase().match(searchString).input));
         }  
       });
       data = newList;
