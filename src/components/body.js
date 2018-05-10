@@ -7,9 +7,10 @@ import Menu from 'material-ui/Menu';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 import axios from "axios";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import _ from 'lodash';
 
 const style = {
-  height: 4500,
+  height: 2350,
   width: 700,
   margin: 20,
   textAlign: 'left',
@@ -54,19 +55,31 @@ class Body extends Component {
   }
   render() {
     let data = this.props.countries;
-    console.log(data);
+    let pokemon = this.props.countries;
+    let newList = [];
     let searchString = this.state.searchValue.trim().toLowerCase();
     if (searchString.length > 0) {
-      // data = Object.keys(data).filter((key) => {
-      //   console.log(data[key].name);
-      //   return data[key].name.toLowerCase().match(searchString);
-      // });
+      data = Object.keys(data).filter((key) => {
+        return data[key].name.toLowerCase().match(searchString);
+      });
       // console.log(data);
       // data = data.filter((country) => {
       //   return country.name.toLowerCase().match(searchString);
       // });
-      console.log(data);
-    }
+      pokemon = Object.keys(pokemon).forEach((key) => {
+        if(!_.isEmpty(pokemon[key].name.toLowerCase().match(searchString))) {
+          newList.push(_.upperFirst(pokemon[key].name.toLowerCase().match(searchString).input));
+        }  
+      });
+      data = newList;
+      data = Object.keys(data).map((key, value) =>
+        <li>{data[key]}</li>
+      )
+    } else {
+        data = Object.keys(data).map((key, value) =>
+        <li>{data[key].name}</li>
+      )
+    };
     return (
       <div>
         <br /><br />
@@ -74,15 +87,13 @@ class Body extends Component {
           type="text"
           value={this.state.searchValue}
           onChange={this.handleText}
-          placeholder="Type here..."
+          placeholder="Search..."
         />
         <br /><br />
         <Paper style={style} zDepth={5} rounded={false}>
           <div>
             <br /><br /><br />
-            {Object.keys(data).map((key, value) =>
-              <li>{data[key].name}</li>
-            )}
+            {data}
           </div>
         </Paper>
         <br />

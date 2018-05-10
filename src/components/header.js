@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {AppBar, Tabs, Tab} from 'material-ui'
+import {AppBar, Tabs, Tab, Paper} from 'material-ui'
 import Button from 'material-ui/Button';
 import Drawer from 'material-ui/Drawer';
 import IconButton from 'material-ui/IconButton';
@@ -14,6 +14,22 @@ const HomeIcon = (props) => (
 
 const iconStyles = {
   marginRight: 24,
+};
+
+const style = {
+  appBar: {
+    position: 'fixed',
+    top: 0,
+    overflow: 'hidden',
+    maxHeight: 57
+    // color: 'red',
+  },
+  menuButton: {
+    marginLeft: 10
+  },
+  iconsRightContainer: {
+    marginLeft: 20
+  }
 };
 
 const Home = () => (
@@ -48,7 +64,10 @@ class Header extends Component {
   render() {
     return (
       <div>
-        <AppBar title="My App">
+        <AppBar
+          style={{...style.appBar}}
+          title="My App"
+        >
           <Tabs>
             {/* <Tab icon={<IconButton onClick={this.handleToggle}><Home /></IconButton>}></Tab> */}
             <Tab icon={<HamburgerMenu
