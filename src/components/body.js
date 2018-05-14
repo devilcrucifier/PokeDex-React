@@ -50,9 +50,7 @@ class Body extends Component {
       searchValue: event.target.value,
     });
   }
-  handleClick(searchValue){
-    console.log(searchValue);
-  }
+
   render() {
     let data = this.props.countries;
     let newList = [];
