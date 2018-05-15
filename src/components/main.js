@@ -6,7 +6,7 @@ import Page from './Page.js'
 class Main extends Component {
   render() {
     return (
-      <div className="App">
+      <div >
         <Header />
         <br /><br />
         <Page countries={this.props.dataProp}/>
