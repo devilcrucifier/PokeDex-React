@@ -7,7 +7,7 @@ class Main extends Component {
   render() {
     return (
       <div >
-        <Header />
+        {/*<Header />*/}
         <br /><br />
         <Page countries={this.props.dataProp}/>
       </div>

@@ -14,17 +14,17 @@ const style = {
   };
   
 class Pokemon extends React.Component {
-  state = {
-    open: false,
-  };
+  // state = {
+  //   open: false,
+  // };
 
-  handleOpen = () => {
-    this.setState({open: true});
-  };
+  // handleOpen = () => {
+  //   this.setState({open: true});
+  // };
 
-  handleClose = () => {
-    this.setState({open: false});
-  };
+  // handleClose = () => {
+  //   this.setState({open: false});
+  // };
 
   render() {
     let pokemon = this.props.pokemon;
@@ -39,14 +39,6 @@ class Pokemon extends React.Component {
           
           }}
         />
-        <Dialog
-          title="Dialog With Actions"
-          modal={false}
-          open={this.state.open}
-          onRequestClose={this.handleClose}
-        >
-          The actions in this window were passed in as an array of React objects.
-        </Dialog>
         <p className="pokemons__name">{_.upperFirst(pokemon.name)}</p>
       </Paper>
       
