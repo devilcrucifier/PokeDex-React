@@ -1,1 +1,1 @@
-React practice for Projects.
+PokeDex in React using Material-UI
